@@ -2,9 +2,9 @@
 This Python application enables you to upload a CSV file and ask questions about its content in natural language. It leverages a large language model (LLM) to generate responses based solely on the information within the document. Questions unrelated to the CSV will not be answered.
 
 ## How it works
-The application processes the CSV by breaking its text into smaller chunks suitable for input into a large language model (LLM). It utilizes OpenAI embeddings to convert these chunks into vector representations. When a user asks a question, the app identifies the chunks most semantically relevant to the query and provides them to the LLM to generate a response.
+The application reads the CSV file and processes the data. It utilizes OpenAI LLMs alongside with Langchain Agents in order to answer your questions. The CSV agent then uses tools to find solutions to your questions and generates an appropriate response with the help of a LLM.
 
-The graphical interface is built with Streamlit, while Langchain is used to manage interactions with the LLM.
+The application employs Streamlit to create the graphical user interface (GUI) and utilizes Langchain to interact with the LLM.
 
 ## Installation
 To install the repository, please clone this repository and install the requirements:
