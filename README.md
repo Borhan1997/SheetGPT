@@ -9,7 +9,7 @@ The application employs Streamlit to create the graphical user interface (GUI) a
 ## Installation
 To install the repository, please clone this repository and install the requirements:
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 You will also need to add your OpenAI API key to the ```.env``` file.
 
